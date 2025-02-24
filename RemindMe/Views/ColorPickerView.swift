@@ -32,9 +32,7 @@ struct ColorPickerView: View {
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: 100)
-        
         .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
-        
         
     }
 }

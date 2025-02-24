@@ -28,6 +28,12 @@ struct HomeView: View {
             .sheet(isPresented: $isPresented) {
                 AddNewListView { name, color in
                     // Save the list to the database
+                    do {
+                        try RemindMeService.saveMyList(name, color)
+                    } catch {
+                        print("Error saving the list: \(error.localizedDescription)")
+                    }
+                   
                 }
             }
             
