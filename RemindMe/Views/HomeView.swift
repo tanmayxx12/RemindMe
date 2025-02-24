@@ -45,4 +45,5 @@ struct HomeView: View {
 
 #Preview {
     HomeView()
+        .environment(\.managedObjectContext, CoreDataProvider.shared.container.viewContext)
 }
