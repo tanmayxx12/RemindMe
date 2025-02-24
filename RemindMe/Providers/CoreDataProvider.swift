@@ -18,7 +18,7 @@ class CoreDataProvider {
         // Register transformers(UIColorTransformer)
         ValueTransformer.setValueTransformer(UIColorTransformer(), forName: NSValueTransformerName("UIColorTransformer"))
         
-        container = NSPersistentContainer(name: "MyList")
+        container = NSPersistentContainer(name: "RemindMeModel")
         container.loadPersistentStores { description, error in
             if let error = error {
                 print("There was an error initializing RemindMeModel: \(error.localizedDescription)")

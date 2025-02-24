@@ -5,14 +5,24 @@
 //  Created by Tanmay . on 24/02/25.
 //
 
+import CoreData
 import SwiftUI
 
 struct HomeView: View {
+    @FetchRequest(sortDescriptors: []) private var myListResults: FetchedResults<MyList>
+    
     @State private var isPresented: Bool = false
     
     var body: some View {
         NavigationStack {
             VStack {
+//                List {
+//                    ForEach(myListResults, id: \.self) { list in
+//                        Text(list.name)
+//                    }
+//                }
+//                .listStyle(.plain)
+                MyListsView(myLists: myListResults)
                 
                 Spacer()
                 

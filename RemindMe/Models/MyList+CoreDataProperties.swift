@@ -25,5 +25,16 @@ extension MyList: Identifiable {
 
 // MARK: - Generated Accessors for notes
 extension MyList {
+    @objc(addRemindersObject:)
+    @NSManaged public func addToReminders(_ value: Reminder)
+    
+    @objc(removeRemindersObject:)
+    @NSManaged public func removeFromReminder(_ value: Reminder)
+    
+    @objc(addReminders:)
+    @NSManaged public func addToReminders(_ value: NSSet)
+    
+    @objc(removeReminders:)
+    @NSManaged public func removeFromReminder(_ value: NSSet)
     
 }

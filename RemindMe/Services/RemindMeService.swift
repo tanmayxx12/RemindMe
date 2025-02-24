@@ -32,4 +32,11 @@ class RemindMeService {
         }
     }
     
+    static func saveReminderToList(myList: MyList, reminderTitle: String) throws {
+        let reminder = Reminder(context: viewContext)
+        reminder.title = reminderTitle
+        myList.addToReminders(reminder)
+        save() 
+    }
+    
 }

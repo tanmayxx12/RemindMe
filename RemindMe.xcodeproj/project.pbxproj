@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1126AAB92D6C83D900088075 /* MyListsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126AAB82D6C83D900088075 /* MyListsView.swift */; };
+		1126AABB2D6C869500088075 /* MyListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126AABA2D6C869500088075 /* MyListCellView.swift */; };
+		1126AABD2D6C86B700088075 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126AABC2D6C86B700088075 /* PreviewData.swift */; };
+		1126AABF2D6C8C7800088075 /* MyListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126AABE2D6C8C7800088075 /* MyListDetailView.swift */; };
 		11966A352D6C4C7300B91147 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11966A322D6C4C7300B91147 /* HomeView.swift */; };
 		11966A362D6C4C7300B91147 /* RemindMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11966A332D6C4C7300B91147 /* RemindMeApp.swift */; };
 		11966A372D6C4C7300B91147 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11966A2F2D6C4C7300B91147 /* Preview Assets.xcassets */; };
@@ -22,6 +26,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1126AAB82D6C83D900088075 /* MyListsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListsView.swift; sourceTree = "<group>"; };
+		1126AABA2D6C869500088075 /* MyListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListCellView.swift; sourceTree = "<group>"; };
+		1126AABC2D6C86B700088075 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		1126AABE2D6C8C7800088075 /* MyListDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListDetailView.swift; sourceTree = "<group>"; };
 		11966A1E2D6C4C6B00B91147 /* RemindMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemindMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11966A2F2D6C4C7300B91147 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11966A312D6C4C7300B91147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -69,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				11966A2F2D6C4C7300B91147 /* Preview Assets.xcassets */,
+				1126AABC2D6C86B700088075 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -111,6 +120,9 @@
 				11966A322D6C4C7300B91147 /* HomeView.swift */,
 				11966A452D6C53DD00B91147 /* AddNewListView.swift */,
 				11966A472D6C55B900B91147 /* ColorPickerView.swift */,
+				1126AAB82D6C83D900088075 /* MyListsView.swift */,
+				1126AABA2D6C869500088075 /* MyListCellView.swift */,
+				1126AABE2D6C8C7800088075 /* MyListDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -204,16 +216,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1126AABB2D6C869500088075 /* MyListCellView.swift in Sources */,
 				11966A482D6C55B900B91147 /* ColorPickerView.swift in Sources */,
 				11966A3E2D6C4D5200B91147 /* RemindMeModel.xcdatamodeld in Sources */,
 				11966A352D6C4C7300B91147 /* HomeView.swift in Sources */,
+				1126AABD2D6C86B700088075 /* PreviewData.swift in Sources */,
 				11966A4E2D6C64C800B91147 /* UIColorTransformer.swift in Sources */,
+				1126AAB92D6C83D900088075 /* MyListsView.swift in Sources */,
 				11966A362D6C4C7300B91147 /* RemindMeApp.swift in Sources */,
 				11966A432D6C509300B91147 /* MyList+CoreDataProperties.swift in Sources */,
 				11966A4B2D6C61C600B91147 /* RemindMeService.swift in Sources */,
 				11966A462D6C53DD00B91147 /* AddNewListView.swift in Sources */,
 				11966A412D6C506C00B91147 /* MyList+CoreDataClass.swift in Sources */,
 				11966A3B2D6C4C8F00B91147 /* CoreDataProvider.swift in Sources */,
+				1126AABF2D6C8C7800088075 /* MyListDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
