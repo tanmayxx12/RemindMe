@@ -9,7 +9,7 @@ import CoreData
 import Foundation
 import UIKit
 
-class RemindMeService {
+class ReminderService {
     static var viewContext: NSManagedObjectContext {
         CoreDataProvider.shared.container.viewContext
     }
@@ -36,7 +36,8 @@ class RemindMeService {
         let reminder = Reminder(context: viewContext)
         reminder.title = reminderTitle
         myList.addToReminders(reminder)
-        save() 
+        save()
+        print("Saved Reminder to MyList Successfully.")
     }
     
 }

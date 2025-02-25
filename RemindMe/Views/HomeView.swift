@@ -39,7 +39,7 @@ struct HomeView: View {
                 AddNewListView { name, color in
                     // Save the list to the database
                     do {
-                        try RemindMeService.saveMyList(name, color)
+                        try ReminderService.saveMyList(name, color)
                     } catch {
                         print("Error saving the list: \(error.localizedDescription)")
                     }

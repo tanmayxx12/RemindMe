@@ -41,7 +41,7 @@ struct MyListDetailView: View {
                 if isFormValid {
                     // Save reminder to MyList
                     do {
-                        try RemindMeService.saveReminderToList(myList: myList, reminderTitle: title)
+                        try ReminderService.saveReminderToList(myList: myList, reminderTitle: title)
                     } catch {
                         print("There was an error saving the reminder: \(error.localizedDescription)")
                     }

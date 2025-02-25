@@ -21,7 +21,7 @@
 		11966A432D6C509300B91147 /* MyList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11966A422D6C509300B91147 /* MyList+CoreDataProperties.swift */; };
 		11966A462D6C53DD00B91147 /* AddNewListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11966A452D6C53DD00B91147 /* AddNewListView.swift */; };
 		11966A482D6C55B900B91147 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11966A472D6C55B900B91147 /* ColorPickerView.swift */; };
-		11966A4B2D6C61C600B91147 /* RemindMeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11966A4A2D6C61C600B91147 /* RemindMeService.swift */; };
+		11966A4B2D6C61C600B91147 /* ReminderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11966A4A2D6C61C600B91147 /* ReminderService.swift */; };
 		11966A4E2D6C64C800B91147 /* UIColorTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11966A4D2D6C64C800B91147 /* UIColorTransformer.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +41,7 @@
 		11966A422D6C509300B91147 /* MyList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MyList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		11966A452D6C53DD00B91147 /* AddNewListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewListView.swift; sourceTree = "<group>"; };
 		11966A472D6C55B900B91147 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
-		11966A4A2D6C61C600B91147 /* RemindMeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeService.swift; sourceTree = "<group>"; };
+		11966A4A2D6C61C600B91147 /* ReminderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderService.swift; sourceTree = "<group>"; };
 		11966A4D2D6C64C800B91147 /* UIColorTransformer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorTransformer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +130,7 @@
 		11966A492D6C61A600B91147 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				11966A4A2D6C61C600B91147 /* RemindMeService.swift */,
+				11966A4A2D6C61C600B91147 /* ReminderService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -225,7 +225,7 @@
 				1126AAB92D6C83D900088075 /* MyListsView.swift in Sources */,
 				11966A362D6C4C7300B91147 /* RemindMeApp.swift in Sources */,
 				11966A432D6C509300B91147 /* MyList+CoreDataProperties.swift in Sources */,
-				11966A4B2D6C61C600B91147 /* RemindMeService.swift in Sources */,
+				11966A4B2D6C61C600B91147 /* ReminderService.swift in Sources */,
 				11966A462D6C53DD00B91147 /* AddNewListView.swift in Sources */,
 				11966A412D6C506C00B91147 /* MyList+CoreDataClass.swift in Sources */,
 				11966A3B2D6C4C8F00B91147 /* CoreDataProvider.swift in Sources */,
